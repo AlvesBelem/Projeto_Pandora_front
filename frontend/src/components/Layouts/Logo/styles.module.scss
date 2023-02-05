@@ -1,0 +1,16 @@
+.container{
+    grid-area: LG;
+    background-color: var(--dark-900);
+
+    border-bottom: 1px solid var(--gray-100);
+    border-right: 1px solid var(--gray-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        width: 90px;
+        height: auto;
+        border-radius: 5%;
+      }
+}

@@ -1,5 +1,6 @@
 import { Aside } from '../Aside';
 import { Content } from '../Content';
+import { Logo } from '../Logo';
 import { MainHeader } from '../MainHeader';
 import styles from './styles.module.scss';
 
@@ -10,6 +11,7 @@ export function Layout() {
             <MainHeader />
             <Aside />
             <Content />
+            <Logo />
         </main>
     )
 }

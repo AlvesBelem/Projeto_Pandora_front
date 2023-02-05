@@ -1,30 +1,18 @@
 .container{
-    
+    border-bottom: 1px solid var(--gray-100);
     grid-area: MH;
-    // min-height: 100vh;
     background-color: var(--dark-900);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 2rem;
+    h3{
+        color: var(--white);
+    }
+    span{
+        color: var(--white);
+    }
 
-
-
-
-
-
-    // background-color: var(--red-900);
-    // border: 0;
-    // padding: 0.4rem;
-    // color: var(--white);
-    // border-radius: 0.5rem;
-    // transition: filter 0.5s;
-
-    // &[disabled]{
-    //     cursor: not-allowed;
-    //     svg{
-    //         animation: animate 2s infinite;
-    //     }
-    // }
-
-    // &:hover{
-    //     filter: brightness(1.5)
-    // }
-   
 }
+
