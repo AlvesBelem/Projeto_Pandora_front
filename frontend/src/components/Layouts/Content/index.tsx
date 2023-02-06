@@ -1,9 +1,10 @@
 import styles from './styles.module.scss';
 
-export function Content() {
+
+export function Content({ children }) {
     return (
         <div className={styles.container}>
-            <h1>Content</h1>
+            {children}
         </div>
     )
 }

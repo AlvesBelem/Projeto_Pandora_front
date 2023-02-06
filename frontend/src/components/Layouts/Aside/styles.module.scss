@@ -1,39 +1,59 @@
 .container{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     padding: 2rem;
-    justify-content: start;
+    justify-content: flex-start;
     border-right: 1px solid var(--gray-100);
     grid-area: AS;
     background-color: var(--dark-900);
-    flex-direction: column;
+    
     h1{
         color: var(--white);
     }
 
     nav{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        
+        flex-direction: column;
     }
 }
 
 .links{
-    margin-top: 1.5rem;
-    
+    margin-top: 2rem;
+}
+
+.menu{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.2s;
+
+    a:hover{
+        color: var(--red-900);
+    }
+}
+
+.menu2{
+    margin-top: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.2s;
+
+    a:hover{
+        color: var(--red-900);
+    }
 }
 
 .icon{
-    
-    color: var(--white);
+    margin-right: 1rem;
+    color: var(--red-900);
     font-size: 1.5rem;
-    margin-right: .5rem;
 }
 
 .link{
-    color: var(--white);
-    font-size: 1.2rem;
+    color: var(--gray-100);
+    font-size: 1rem;
 
+    
 }

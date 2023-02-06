@@ -8,16 +8,16 @@ import { Layout } from "../../components/Layouts/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Signup() {
+export default function Dashboard() {
     return (
         <>
             <Head>
                 <title>
-                    Página inicial
+                    Dashboard
                 </title>
             </Head>
             <main className={styles.container}>
-                <Layout />
+                <h1>Dashboard</h1>
             </main>
 
         </>

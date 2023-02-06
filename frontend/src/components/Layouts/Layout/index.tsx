@@ -5,13 +5,15 @@ import { MainHeader } from '../MainHeader';
 import styles from './styles.module.scss';
 
 
-export function Layout() {
+export function Layout({ children }) {
     return (
         <main className={styles.container}>
             <MainHeader />
             <Aside />
-            <Content />
             <Logo />
+            <Content>
+                {children}
+            </Content>
         </main>
     )
 }
